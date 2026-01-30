@@ -1,0 +1,20 @@
+name: RankedSMP
+version: 1.0.0
+main: RankedSMP\Main
+api: 5.0.0
+author: You
+description: Ranked SMP plugin
+commands:
+  rank:
+    description: View your rank
+  ranks:
+    description: View all ranks
+  rankstart:
+    description: Randomly assign ranks 1-20
+    permission: rank.admin
+  setrank:
+    description: Set a player's rank
+    permission: rank.admin
+permissions:
+  rank.admin:
+    default: op
