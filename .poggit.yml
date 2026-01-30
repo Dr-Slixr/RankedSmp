@@ -1,0 +1,4 @@
+build-by-default: true
+projects:
+  RankedSMP:
+    path: ""
